@@ -239,3 +239,1620 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2056.000406 seconds.
+  path: Assets/SimpleSky/_Models/Cloud_02.fbx
+  artifactKey: Guid(c943ee3841fcbd94d9630c5e4529b603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleSky/_Models/Cloud_02.fbx using Guid(c943ee3841fcbd94d9630c5e4529b603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '659964679e88ca8669d363e508239537') in 2.599807 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.336862 seconds.
+  path: Assets/SimpleSky/_Prefabs/Cloud_02.prefab
+  artifactKey: Guid(73ef0b63ffe19f94ab35e4475b345d70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleSky/_Prefabs/Cloud_02.prefab using Guid(73ef0b63ffe19f94ab35e4475b345d70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83f58b49aa5d2e7c8cc208fa66920086') in 0.168556 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/SimpleSky/_Prefabs/Cloud_04.prefab
+  artifactKey: Guid(420bde364644a314396dc8ed24ee99d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleSky/_Prefabs/Cloud_04.prefab using Guid(420bde364644a314396dc8ed24ee99d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae91690b53a5df457306d9b7400e132d') in 0.045794 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.020321 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\elpin\OneDrive - Universidad de los Andes\7mo_semestre\Mixta\DemoRM1\DemoWM_RM\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\elpin\OneDrive - Universidad de los Andes\7mo_semestre\Mixta\DemoRM1\DemoWM_RM\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.50 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.944 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4948ms)
+		BeginReloadAssembly (1265ms)
+			ExecutionOrderSort (3ms)
+			DisableScriptedObjects (41ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (731ms)
+		EndReloadAssembly (3414ms)
+			LoadAssemblies (456ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1328ms)
+			ReleaseScriptCaches (6ms)
+			RebuildScriptCaches (118ms)
+			SetupLoadedEditorAssemblies (1140ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (39ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (263ms)
+				ProcessInitializeOnLoadAttributes (731ms)
+				ProcessInitializeOnLoadMethodAttributes (77ms)
+				AfterProcessingInitializeOnLoad (26ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (21ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 11.49 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3437 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (80.4 KB). Loaded Objects now: 3962.
+Memory consumption went from 124.7 MB to 124.6 MB.
+Total: 9.970600 ms (FindLiveObjects: 0.471900 ms CreateObjectMapping: 0.306500 ms MarkObjects: 8.935400 ms  DeleteObjects: 0.253800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1091.246629 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Outline.mat
+  artifactKey: Guid(a00013af81304728b2be1f4309ee2433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Outline.mat using Guid(a00013af81304728b2be1f4309ee2433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ac205e3b958d5b8d83c251a16005c1e') in 1.308196 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF.asset
+  artifactKey: Guid(125cb55b44b24c4393181402bc6200e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF.asset using Guid(125cb55b44b24c4393181402bc6200e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e63e26aaad46ecb0f9eb4fbf7ee71c2') in 0.158554 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF - Drop Shadow.mat
+  artifactKey: Guid(f2dcf029949142e28b974630369c8b4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF - Drop Shadow.mat using Guid(f2dcf029949142e28b974630369c8b4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2930ab90fc338dbc4bdc46b9a7ca7ba7') in 0.051758 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Electronic Highway Sign.TTF
+  artifactKey: Guid(8a2b9e2a607dd2143b58c44bc32410b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Electronic Highway Sign.TTF using Guid(8a2b9e2a607dd2143b58c44bc32410b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfd284e5b1a8e15a9d5f3996cc27e8f9') in 0.129788 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.013679 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3bd036785823e2281556a384dd6489b') in 0.142840 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011360 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Bangers.ttf
+  artifactKey: Guid(5dd49b3eacc540408c98eee0de38e0f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Bangers.ttf using Guid(5dd49b3eacc540408c98eee0de38e0f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f411dc487d862051c8615ed2fedf126') in 0.078174 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF Logo.mat
+  artifactKey: Guid(f4e195ac1e204eff960149d1cb34e18c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF Logo.mat using Guid(f4e195ac1e204eff960149d1cb34e18c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1976ddad0d05c24a03015700d9a3d206') in 0.828806 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.188304 seconds.
+  path: Assets/Monqo Egg Coffee Table Set/_Prefabs/EggStool.prefab
+  artifactKey: Guid(3da18400ba94b7d42a35c381649e637d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Monqo Egg Coffee Table Set/_Prefabs/EggStool.prefab using Guid(3da18400ba94b7d42a35c381649e637d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b0f7698306eeb8000f5fa5b5fc409f8') in 0.038213 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Prefabs/TextMeshPro - Prefab 2.prefab
+  artifactKey: Guid(fdad9d952ae84cafb74c63f2e694d042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Prefabs/TextMeshPro - Prefab 2.prefab using Guid(fdad9d952ae84cafb74c63f2e694d042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36b3b267d84dd80431404d8341aa0af1') in 0.152959 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Monqo Egg Coffee Table Set/_Prefabs/EggTable.prefab
+  artifactKey: Guid(d86f001c0a9236440b367314445a79fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Monqo Egg Coffee Table Set/_Prefabs/EggTable.prefab using Guid(d86f001c0a9236440b367314445a79fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12b20ebe5e17157379ef3e2f1c153f48') in 0.018742 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/SimpleSky/_Prefabs/SkyDome.prefab
+  artifactKey: Guid(d0223f77114284b47a0e8b317e71e4dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleSky/_Prefabs/SkyDome.prefab using Guid(d0223f77114284b47a0e8b317e71e4dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '271a9b87bd2052b7fd2ce72ecc955cce') in 0.081895 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.155012 seconds.
+  path: Assets/SimpleSky/_Prefabs/Cloud_02.prefab
+  artifactKey: Guid(73ef0b63ffe19f94ab35e4475b345d70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleSky/_Prefabs/Cloud_02.prefab using Guid(73ef0b63ffe19f94ab35e4475b345d70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f64b8e1e79acd21fb959ee0400330b4') in 0.077450 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/SimpleSky/_Prefabs/Cloud_04.prefab
+  artifactKey: Guid(420bde364644a314396dc8ed24ee99d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleSky/_Prefabs/Cloud_04.prefab using Guid(420bde364644a314396dc8ed24ee99d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f356e1cddee4e94651b0168379890db7') in 0.060247 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.958256 seconds.
+  path: Assets/Monqo Egg Coffee Table Set/Textures/EggTable_Metallic.png
+  artifactKey: Guid(a66bf98cf250ffd4499594aa9bfa967b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Monqo Egg Coffee Table Set/Textures/EggTable_Metallic.png using Guid(a66bf98cf250ffd4499594aa9bfa967b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b439cc56bf36c35fdef32c68db751cad') in 0.106677 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.019879 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\elpin\OneDrive - Universidad de los Andes\7mo_semestre\Mixta\DemoRM1\DemoWM_RM\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\elpin\OneDrive - Universidad de los Andes\7mo_semestre\Mixta\DemoRM1\DemoWM_RM\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 3.95 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  9.419 seconds
+Domain Reload Profiling:
+	ReloadAssembly (9424ms)
+		BeginReloadAssembly (1683ms)
+			ExecutionOrderSort (1ms)
+			DisableScriptedObjects (45ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (974ms)
+		EndReloadAssembly (6675ms)
+			LoadAssemblies (558ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (3768ms)
+			ReleaseScriptCaches (5ms)
+			RebuildScriptCaches (163ms)
+			SetupLoadedEditorAssemblies (2203ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (62ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (294ms)
+				ProcessInitializeOnLoadAttributes (1618ms)
+				ProcessInitializeOnLoadMethodAttributes (182ms)
+				AfterProcessingInitializeOnLoad (39ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (26ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 16.22 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3437 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (80.4 KB). Loaded Objects now: 3971.
+Memory consumption went from 124.9 MB to 124.8 MB.
+Total: 681.187100 ms (FindLiveObjects: 368.002200 ms CreateObjectMapping: 8.482100 ms MarkObjects: 300.695300 ms  DeleteObjects: 4.001800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 720.626728 seconds.
+  path: Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Prefabs/Birch01.prefab
+  artifactKey: Guid(3f8491dfcfe5d9444931da6e198b0a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Prefabs/Birch01.prefab using Guid(3f8491dfcfe5d9444931da6e198b0a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bf1a1fdd43248c37823c9b41436481b') in 3.463787 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Prefabs/Oak_Stump.prefab
+  artifactKey: Guid(13ce7024050284446bab7ed64dfe4de8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Prefabs/Oak_Stump.prefab using Guid(13ce7024050284446bab7ed64dfe4de8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20352895bbddcfaa7bebe2e54cea7fbf') in 0.063149 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Prefabs/Boulder11.prefab
+  artifactKey: Guid(919b43b16eacea448b498fb9ce06040a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Prefabs/Boulder11.prefab using Guid(919b43b16eacea448b498fb9ce06040a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb07bb8626f824376a1904268d076eee') in 0.047282 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Prefabs/Bush_Yellow_Green.prefab
+  artifactKey: Guid(8245c86e1149e8948b708a621b5e0a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Prefabs/Bush_Yellow_Green.prefab using Guid(8245c86e1149e8948b708a621b5e0a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93132dfed09909987c99d41858f49ff9') in 0.047427 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Prefabs/Cedar04.prefab
+  artifactKey: Guid(d6e6dbb5fb753754d8123e09d254ffaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Prefabs/Cedar04.prefab using Guid(d6e6dbb5fb753754d8123e09d254ffaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '514665410ba0853665fd0e78324ee9f1') in 0.062116 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Prefabs/Boulder08.prefab
+  artifactKey: Guid(2117cbe9b55c67c4db18b95e280c1d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Prefabs/Boulder08.prefab using Guid(2117cbe9b55c67c4db18b95e280c1d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94bfc04db0f313cc2edc3445314252a7') in 0.070037 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Prefabs/Oak_Fallen.prefab
+  artifactKey: Guid(e6567bad14fb56e46a7da63fd644b99a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Prefabs/Oak_Fallen.prefab using Guid(e6567bad14fb56e46a7da63fd644b99a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99a71fd9e919258e1890b84814fa15c9') in 0.061773 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Prefabs/Maple04.prefab
+  artifactKey: Guid(f448b09d8a1ecc849830cfcd3ddbd97b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Prefabs/Maple04.prefab using Guid(f448b09d8a1ecc849830cfcd3ddbd97b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd93a39f9dafe734f7c817d563e285dc') in 0.073567 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Prefabs/Cedar_Fallen.prefab
+  artifactKey: Guid(5dca9ea562969104cb446f68ce2e1ad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Prefabs/Cedar_Fallen.prefab using Guid(5dca9ea562969104cb446f68ce2e1ad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c820aa32d35dd7b1edad4249b63107ef') in 0.057372 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Prefabs/Palm_Tree01.prefab
+  artifactKey: Guid(1f894f721d76602478aba9b53ad168fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Prefabs/Palm_Tree01.prefab using Guid(1f894f721d76602478aba9b53ad168fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '666acede6122af0ff4c360ae46cfbdd9') in 0.060635 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Prefabs/Willow02.prefab
+  artifactKey: Guid(8c9bc90da79f79646a87c8f49b978f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Prefabs/Willow02.prefab using Guid(8c9bc90da79f79646a87c8f49b978f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de4e4c91bd6a09217ba51420cb213537') in 0.062799 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Prefabs/Birch_Stump.prefab
+  artifactKey: Guid(5cf9aadad13b1b048a877016b5187cc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Prefabs/Birch_Stump.prefab using Guid(5cf9aadad13b1b048a877016b5187cc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '116656025c0b6d0c600c776e121c7fb3') in 0.061522 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Prefabs/Cedar03.prefab
+  artifactKey: Guid(f56ca85733bdde349a7fdd8c9cb91705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Prefabs/Cedar03.prefab using Guid(f56ca85733bdde349a7fdd8c9cb91705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e9cef2d0f7388f23126b17be30949c8') in 0.077900 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Prefabs/Boulder01.prefab
+  artifactKey: Guid(859ee78e285ac5a44b3f22696ed3ad34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Prefabs/Boulder01.prefab using Guid(859ee78e285ac5a44b3f22696ed3ad34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91d33837e7515200e139ab330ae59c12') in 0.092079 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Prefabs/Particle Systems/Hornets_PS.prefab
+  artifactKey: Guid(24601bbbc72ef9a4093283c8617e5735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Prefabs/Particle Systems/Hornets_PS.prefab using Guid(24601bbbc72ef9a4093283c8617e5735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb1c33185577ed4e0568127a09aca245') in 0.414901 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Prefabs/Sycamore02.prefab
+  artifactKey: Guid(91ae0b72985def1488ac99e963fe52c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Prefabs/Sycamore02.prefab using Guid(91ae0b72985def1488ac99e963fe52c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37f06e88ebf45ec531b462af698aae2b') in 0.080463 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Prefabs/Maple03.prefab
+  artifactKey: Guid(8e2cdc8c3c327a5408f3886cdf9c2776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Prefabs/Maple03.prefab using Guid(8e2cdc8c3c327a5408f3886cdf9c2776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '223085cfee95017ac690d0d2954b3e7c') in 0.075907 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Prefabs/Magnolia_Stump.prefab
+  artifactKey: Guid(4ce5a11fa53b148409f1c6b50f4f2522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Prefabs/Magnolia_Stump.prefab using Guid(4ce5a11fa53b148409f1c6b50f4f2522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1732c4484c6664ff23c55927784cd074') in 0.061075 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Prefabs/Palm_Tree02.prefab
+  artifactKey: Guid(7c49d4a761d1d064a990b91ef7ae136c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Prefabs/Palm_Tree02.prefab using Guid(7c49d4a761d1d064a990b91ef7ae136c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8f23aa957871c4c1a5b15c2d91e5807') in 0.060756 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Prefabs/Boulder09.prefab
+  artifactKey: Guid(38e9b00e6c62cdf4783f2463a8ee9519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Prefabs/Boulder09.prefab using Guid(38e9b00e6c62cdf4783f2463a8ee9519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e8d50a14eb3dfb2c97d489d55a93cc4') in 0.041722 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Prefabs/Pine02.prefab
+  artifactKey: Guid(286233eeea645a4428760f23657712e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Prefabs/Pine02.prefab using Guid(286233eeea645a4428760f23657712e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '094af1dcb6851ca2ef213fa6cb5e2662') in 0.040946 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Prefabs/Sycamore04.prefab
+  artifactKey: Guid(2e6587f9422230541802d00cb2568ca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Prefabs/Sycamore04.prefab using Guid(2e6587f9422230541802d00cb2568ca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '159ac34be6ca5b8aa555191d09670acc') in 0.043846 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Prefabs/Cedar02.prefab
+  artifactKey: Guid(c983fb209e63f22409bcf8c975ef6f9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Prefabs/Cedar02.prefab using Guid(c983fb209e63f22409bcf8c975ef6f9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '348df25fb644b75d6ebc2005efbce9c3') in 0.045176 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Prefabs/Magnolia03.prefab
+  artifactKey: Guid(1952155fea1f47c4092625dee5d77280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Prefabs/Magnolia03.prefab using Guid(1952155fea1f47c4092625dee5d77280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fff8632d0a9810b649868178a04341fa') in 0.043344 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Prefabs/Magnolia02.prefab
+  artifactKey: Guid(13baec6b2ad6c4244acf840fdf662fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Prefabs/Magnolia02.prefab using Guid(13baec6b2ad6c4244acf840fdf662fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3384012f46be30114150b65b33c8633f') in 0.047342 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Prefabs/Oak02.prefab
+  artifactKey: Guid(f028abc84ac6a7f44bbe00711b309ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Prefabs/Oak02.prefab using Guid(f028abc84ac6a7f44bbe00711b309ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bcf1c39e4cc4920be1a52df3866bbfe') in 0.047573 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Prefabs/Willow04.prefab
+  artifactKey: Guid(11a0c5f03a3245645a6b2c221d5c409e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Prefabs/Willow04.prefab using Guid(11a0c5f03a3245645a6b2c221d5c409e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8f9f4f892e4d13d9b8b7340713b17f4') in 0.041630 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Prefabs/Boulder15.prefab
+  artifactKey: Guid(81e4ecff483a4744c87b667fc6046bd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Prefabs/Boulder15.prefab using Guid(81e4ecff483a4744c87b667fc6046bd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd248137158d873c8e70ee908f6f6c780') in 0.040667 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Prefabs/Palm_Tree03.prefab
+  artifactKey: Guid(1535e22a3ca32134db0cb088fcb421aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Prefabs/Palm_Tree03.prefab using Guid(1535e22a3ca32134db0cb088fcb421aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4296f6fb013f5c1529b03c054c6c225c') in 0.040162 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Prefabs/Boulder13.prefab
+  artifactKey: Guid(1ed9c7b414f8bbb40947f077be86a5cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Prefabs/Boulder13.prefab using Guid(1ed9c7b414f8bbb40947f077be86a5cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '417e7dd64f14d346b474ed7601182a5c') in 0.033473 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Prefabs/Terrain02.prefab
+  artifactKey: Guid(68ae9cb78e7afd14ab06c4afcedf02c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Prefabs/Terrain02.prefab using Guid(68ae9cb78e7afd14ab06c4afcedf02c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac9599a684ce3b18577a47aefb55ace3') in 0.032164 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Prefabs/Boulder06.prefab
+  artifactKey: Guid(2a7a759316c7d554bae95797a68bc7ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Prefabs/Boulder06.prefab using Guid(2a7a759316c7d554bae95797a68bc7ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c4318df4785c2994762573f2eb368e2') in 0.050389 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Prefabs/Pine04.prefab
+  artifactKey: Guid(c7fcc481d87e4aa4a97e95fd2781a08e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Prefabs/Pine04.prefab using Guid(c7fcc481d87e4aa4a97e95fd2781a08e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89e031b5cf272f90e11b3cf9efe405a9') in 0.039050 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.244129 seconds.
+  path: Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Materials/Birch_Fallen_Bark.mat
+  artifactKey: Guid(4e6a318021d9def488ef7583a124872f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Materials/Birch_Fallen_Bark.mat using Guid(4e6a318021d9def488ef7583a124872f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b47d63fbd9e1a0621b8b93b63f51a46') in 0.190234 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Materials/Cedar_Leaves_Dying.mat
+  artifactKey: Guid(6f0ebd350ff4e4c4d9c5727b9b34c964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Materials/Cedar_Leaves_Dying.mat using Guid(6f0ebd350ff4e4c4d9c5727b9b34c964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7fbeba72be788715ca4bf3684dbf7b1') in 0.053722 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Materials/Boulder_Gray.mat
+  artifactKey: Guid(f4a541773b25b38418a3d5cc1a6e0e1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Materials/Boulder_Gray.mat using Guid(f4a541773b25b38418a3d5cc1a6e0e1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f63aa47958934ad8290627ac6395073') in 0.047365 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Materials/Bush_Yellow_Green.mat
+  artifactKey: Guid(37c5744d6bc168e449d9f231d8eee787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Materials/Bush_Yellow_Green.mat using Guid(37c5744d6bc168e449d9f231d8eee787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c81bc30bb44110e9f05c508f544084f') in 0.028637 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Materials/Dying_Palm_Leaves.mat
+  artifactKey: Guid(abc4fbde059761a4fb79f824b30e0726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Materials/Dying_Palm_Leaves.mat using Guid(abc4fbde059761a4fb79f824b30e0726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a656e30f90d8b0da058c5aa9a3aa2b68') in 0.149694 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.016063 seconds.
+  path: Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Materials/Grass.mat
+  artifactKey: Guid(b76410435ba9be9429763f0595738e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Materials/Grass.mat using Guid(b76410435ba9be9429763f0595738e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '935472af9a79d036856e46974390ebdc') in 0.249138 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Materials/Magnolia_Fallen_Bark.mat
+  artifactKey: Guid(4eb41c8cf93659049b4f4ead703541bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Materials/Magnolia_Fallen_Bark.mat using Guid(4eb41c8cf93659049b4f4ead703541bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1ef12024ae33162dcc30ad2ddef8264') in 0.074856 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Materials/Maple_Yellow_Orange_Leaves.mat
+  artifactKey: Guid(1c8030ab2f5d2334aba2eb6890f3a7a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Materials/Maple_Yellow_Orange_Leaves.mat using Guid(1c8030ab2f5d2334aba2eb6890f3a7a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f2b01dcb774813fca82988ed92cf5e4') in 0.051566 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Materials/Maple_Leaves_Red.mat
+  artifactKey: Guid(982f7306501601e48b8087e35785f9e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Materials/Maple_Leaves_Red.mat using Guid(982f7306501601e48b8087e35785f9e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5b6ff07b1f077edd6480fe119cbbc1a') in 0.058549 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Materials/Magnolia_Fallen_Inside.mat
+  artifactKey: Guid(6e75b75c52737d24d8e30369f9ea7239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Materials/Magnolia_Fallen_Inside.mat using Guid(6e75b75c52737d24d8e30369f9ea7239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1404af055a213260e77feeacfa938817') in 0.041417 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Materials/Hornet_Nest.mat
+  artifactKey: Guid(1e156b479c108a1418b54d55ad0bc0aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Materials/Hornet_Nest.mat using Guid(1e156b479c108a1418b54d55ad0bc0aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ecbb17e613ba37ef93843aa04a0d063') in 0.046827 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Materials/Birch_Fallen_Inside.mat
+  artifactKey: Guid(8be22f56d68d5784abbadb3e17f599ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Materials/Birch_Fallen_Inside.mat using Guid(8be22f56d68d5784abbadb3e17f599ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '251647a112010a2263e598aef459bf3e') in 0.051957 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Materials/Black.mat
+  artifactKey: Guid(1bd599df056a03444a1aafd853c87113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Materials/Black.mat using Guid(1bd599df056a03444a1aafd853c87113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4b676e1b405b6a553d5f69dd57a667a') in 0.047716 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Materials/Boulder_Dark_Gray.mat
+  artifactKey: Guid(98065f1e29ef5fa47806975ec2d2a51e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Materials/Boulder_Dark_Gray.mat using Guid(98065f1e29ef5fa47806975ec2d2a51e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dbcebc52dfff34720344ee5f06754d6') in 0.042814 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Materials/Cedar_Fallen_Inside.mat
+  artifactKey: Guid(69f2086864eda634a9f74cf7e7fb8b23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Materials/Cedar_Fallen_Inside.mat using Guid(69f2086864eda634a9f74cf7e7fb8b23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '135fdae3ba329d3893ecb46c8c7f47d9') in 0.047611 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Materials/Magnolia_Leaves.mat
+  artifactKey: Guid(c03fffaee04ac104b982e9cc092628db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Materials/Magnolia_Leaves.mat using Guid(c03fffaee04ac104b982e9cc092628db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7a8f7bb04860ab83414ffa069a84bc1') in 0.065865 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Materials/Magnolia_Dark_Pink.mat
+  artifactKey: Guid(57570104325eb7440939c52ddd93245b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Materials/Magnolia_Dark_Pink.mat using Guid(57570104325eb7440939c52ddd93245b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2208e08f93be513f324b5a6a0834ffd') in 0.057400 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Materials/Cedar_Leaves.mat
+  artifactKey: Guid(eda871dd4571c1b4b82e2dbb1a74837a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Materials/Cedar_Leaves.mat using Guid(eda871dd4571c1b4b82e2dbb1a74837a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '969f19c67a278346206c7368e16b316b') in 0.050441 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Materials/Maple_Fallen_Bark.mat
+  artifactKey: Guid(a8f83a2e5c33397459d614207e05e985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Materials/Maple_Fallen_Bark.mat using Guid(a8f83a2e5c33397459d614207e05e985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74068f6130aa9827106e6b2d5d2e9c9b') in 0.051420 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Materials/Maple_Orange_Leaves.mat
+  artifactKey: Guid(aa17b46b9c8f1ca42a4a1941c133af8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Materials/Maple_Orange_Leaves.mat using Guid(aa17b46b9c8f1ca42a4a1941c133af8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29ef675b88a4a7c4e9b5abd5b600b704') in 0.057387 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Materials/Palm_Leaves.mat
+  artifactKey: Guid(d1dd5f256920b9c42ba1e3ef434baf11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Materials/Palm_Leaves.mat using Guid(d1dd5f256920b9c42ba1e3ef434baf11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a311b8a61a306d7d2839a1cd8491420a') in 0.043234 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.351158 seconds.
+  path: Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Meshes/Birch01.fbx
+  artifactKey: Guid(6b85365b40107fe46a5de0a4a78620b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Meshes/Birch01.fbx using Guid(6b85365b40107fe46a5de0a4a78620b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6598afa49deae88a213c2fc12e8f5058') in 0.306551 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Meshes/Bush_Green.fbx
+  artifactKey: Guid(69635b04887962e49879aac05d5fa07c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Meshes/Bush_Green.fbx using Guid(69635b04887962e49879aac05d5fa07c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2763a6234f8136eece1d76d1c7bf6efc') in 0.077955 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Meshes/Boulder10.fbx
+  artifactKey: Guid(70334c26deab18e449fa7c4b7c77757f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Meshes/Boulder10.fbx using Guid(70334c26deab18e449fa7c4b7c77757f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcc7c931c50086e7d3274c77ddbc32fc') in 0.076368 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Meshes/Bush_Yellow.fbx
+  artifactKey: Guid(d2019a0ace391b547be4c7b2cfe4c987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Meshes/Bush_Yellow.fbx using Guid(d2019a0ace391b547be4c7b2cfe4c987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bceba3cff068fbc2a983ce4a6e2bbc39') in 0.063751 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Meshes/Boulder12.fbx
+  artifactKey: Guid(53b053ba697326a4692f3a5447021101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Meshes/Boulder12.fbx using Guid(53b053ba697326a4692f3a5447021101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '492753fbf7486b2ed232cdf211b52b6d') in 0.074502 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Meshes/Magnolia02.fbx
+  artifactKey: Guid(0b9a18d51e84f3b4f830c6f38f2891c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Meshes/Magnolia02.fbx using Guid(0b9a18d51e84f3b4f830c6f38f2891c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b442fc85ef3b3def7a2084637f5047bd') in 0.100829 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Meshes/Magnolia_Fallen.fbx
+  artifactKey: Guid(e78103e4752e81245802c4457ce60805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Meshes/Magnolia_Fallen.fbx using Guid(e78103e4752e81245802c4457ce60805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f1f20a3807c024717809e1af65348cb') in 0.086596 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Meshes/Maple02.fbx
+  artifactKey: Guid(014272ca746f8954e9d7a35351815ee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Meshes/Maple02.fbx using Guid(014272ca746f8954e9d7a35351815ee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cdca978c6dbc3db8b0f8b19db6729c3') in 0.105022 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Meshes/Maple04.fbx
+  artifactKey: Guid(516095c72cd7211438d5a3d2b55d5fa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Meshes/Maple04.fbx using Guid(516095c72cd7211438d5a3d2b55d5fa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dafaa768ade65d4976f8b13441d80be') in 0.089902 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Meshes/Bush_Orange.fbx
+  artifactKey: Guid(ce12e5be87639a547a959fc42479ce66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Meshes/Bush_Orange.fbx using Guid(ce12e5be87639a547a959fc42479ce66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43436226814f1eb74679cc87fbc47c02') in 0.083085 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Meshes/Boulder04.fbx
+  artifactKey: Guid(d67bfbff190d3e44a8f8daa1ad7d6dd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Meshes/Boulder04.fbx using Guid(d67bfbff190d3e44a8f8daa1ad7d6dd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d4c37beee3d4cb5e963cf7d833b397f') in 0.068995 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Meshes/Cedar_Stump.fbx
+  artifactKey: Guid(e5cbc174025a35448a84cad408c1fbae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Meshes/Cedar_Stump.fbx using Guid(e5cbc174025a35448a84cad408c1fbae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15592cb17295afe5ec64b1de38b9b9fa') in 0.097323 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Meshes/Bush_Yellow_Green.fbx
+  artifactKey: Guid(f6399a07eaf40e04da83f0b765d44bcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Meshes/Bush_Yellow_Green.fbx using Guid(f6399a07eaf40e04da83f0b765d44bcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c26ebd23884a3e8b198bc53775e3ca5') in 0.082529 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Meshes/Boulder_Large01.fbx
+  artifactKey: Guid(139e3ac74fedbce46af08801c3784b07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Meshes/Boulder_Large01.fbx using Guid(139e3ac74fedbce46af08801c3784b07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b854a29d5b86cea0ac78bedcc0cbc0da') in 0.071206 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Meshes/Maple01.fbx
+  artifactKey: Guid(6e97cac4a8beacd41896910a19f74c0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Meshes/Maple01.fbx using Guid(6e97cac4a8beacd41896910a19f74c0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8762bbce03fa42182e36a3aaa6eb3b6') in 0.111309 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Meshes/Cedar03.fbx
+  artifactKey: Guid(972d7e28ef7a38945b9c75dafbbdd21f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Meshes/Cedar03.fbx using Guid(972d7e28ef7a38945b9c75dafbbdd21f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '702e39830dcb329ba115ca4a35e6fd58') in 0.083404 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Meshes/Magnolia04.fbx
+  artifactKey: Guid(04b64c8ab049cca40bc4860886452d48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Meshes/Magnolia04.fbx using Guid(04b64c8ab049cca40bc4860886452d48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '975e6acb3e84045b2bfb537941d1f8a5') in 0.094661 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Meshes/Birch02.fbx
+  artifactKey: Guid(c223514cb97a1d44197f3778cd585588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Meshes/Birch02.fbx using Guid(c223514cb97a1d44197f3778cd585588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18555b03a1b2f4ef62c4b1d88f8a90ba') in 0.104100 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Meshes/Boulder01.fbx
+  artifactKey: Guid(58bd5fd05de1dc14c9d8783d1ffd3945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Meshes/Boulder01.fbx using Guid(58bd5fd05de1dc14c9d8783d1ffd3945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecf625b90f6a69e8e4a62f9ad7a9010e') in 0.065842 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Meshes/Birch_Fallen.fbx
+  artifactKey: Guid(068bafae1a15d7444857d160a377ed62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Meshes/Birch_Fallen.fbx using Guid(068bafae1a15d7444857d160a377ed62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f4730e7c2bff194fc7174407db5c91c') in 0.388074 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Meshes/Mushroom01.fbx
+  artifactKey: Guid(3616c7d6df0827840b084aa9c93b40ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Meshes/Mushroom01.fbx using Guid(3616c7d6df0827840b084aa9c93b40ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3f077e365c97110bd42fdfdbe1a34de') in 0.125442 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Meshes/Oak03.fbx
+  artifactKey: Guid(2aed7364146789843b2b7a6bf854da6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Meshes/Oak03.fbx using Guid(2aed7364146789843b2b7a6bf854da6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e9df47bb29f788c55e67181a24a6bdb') in 0.137242 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Meshes/Sycamore03.fbx
+  artifactKey: Guid(d979725e1b4c34247b32b83082094e80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Meshes/Sycamore03.fbx using Guid(d979725e1b4c34247b32b83082094e80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '592b748592a095549faa8ab9795caa51') in 0.093114 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Meshes/Oak_Fallen.fbx
+  artifactKey: Guid(85c14e2fff2d5ed4590201d9f8ab4095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Meshes/Oak_Fallen.fbx using Guid(85c14e2fff2d5ed4590201d9f8ab4095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68acabeec3595e72a580fb1b9262f15e') in 0.080590 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Meshes/Terrain01.fbx
+  artifactKey: Guid(568c9cdaccc7e654da5576f83896d407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Meshes/Terrain01.fbx using Guid(568c9cdaccc7e654da5576f83896d407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57ea8b3c707bf305275c40cd4672369d') in 0.087447 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Meshes/Willow01.fbx
+  artifactKey: Guid(7700f1ed1cc7e6d41af51f4c857060e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Meshes/Willow01.fbx using Guid(7700f1ed1cc7e6d41af51f4c857060e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c45d80454483d7005abb6562165a5316') in 0.109768 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Meshes/Terrain03.fbx
+  artifactKey: Guid(30ad49e420b05384da1da8ebac4d0c12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Meshes/Terrain03.fbx using Guid(30ad49e420b05384da1da8ebac4d0c12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '249ca704e7f3ac358419f0e1b39086f9') in 0.101341 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Meshes/Palm_Tree01.fbx
+  artifactKey: Guid(e2799504ecfd91840b48a87db2b34ae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Meshes/Palm_Tree01.fbx using Guid(e2799504ecfd91840b48a87db2b34ae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daaf2c94a4de5f3a3066c19f9782b3df') in 0.102343 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Meshes/Plant02.fbx
+  artifactKey: Guid(62f008d8e81d7c141be2628ddc946d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Meshes/Plant02.fbx using Guid(62f008d8e81d7c141be2628ddc946d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aede19ef7dcf96dd7096b5696d4ef150') in 0.069856 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Meshes/Willow_Stump.fbx
+  artifactKey: Guid(080546db90f90ab4e97f3c6bb577e8ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Meshes/Willow_Stump.fbx using Guid(080546db90f90ab4e97f3c6bb577e8ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9779a8e7f80e222b867d8535e92a333b') in 0.074572 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Meshes/Willow03.fbx
+  artifactKey: Guid(d6192b0daf6f1ee44a6222de1339298a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Meshes/Willow03.fbx using Guid(d6192b0daf6f1ee44a6222de1339298a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51cccb52bc5d00240c31df93df05ff99') in 0.102792 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Meshes/Terrain06.fbx
+  artifactKey: Guid(83a810d6d34fb014a879be2ec6adac0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Meshes/Terrain06.fbx using Guid(83a810d6d34fb014a879be2ec6adac0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '785b37b672a7ab2deb566ae537fbee04') in 0.074761 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Meshes/Oak01.fbx
+  artifactKey: Guid(a86b4b5c5d35c3041afe1f93f99261ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Meshes/Oak01.fbx using Guid(a86b4b5c5d35c3041afe1f93f99261ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c09f70ed8dc8bc141635f1631d4196a') in 0.082600 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Meshes/Palm_Tree03.fbx
+  artifactKey: Guid(2945ba052af88a847b48c91b878a14fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Meshes/Palm_Tree03.fbx using Guid(2945ba052af88a847b48c91b878a14fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '197ac0b755436217f415330b719750b5') in 0.067317 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Meshes/Plant03.fbx
+  artifactKey: Guid(75cdb5e71c5efad469731e082f331667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Meshes/Plant03.fbx using Guid(75cdb5e71c5efad469731e082f331667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bca7164289ac531e632156936d7c28e') in 0.081848 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Meshes/Sycamore04.fbx
+  artifactKey: Guid(f1d96934cd74f684d88c3893f4aa482c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Meshes/Sycamore04.fbx using Guid(f1d96934cd74f684d88c3893f4aa482c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16c16bfae5007564e2b42a1835a7239e') in 0.083909 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Meshes/Oak04.fbx
+  artifactKey: Guid(76214f7807f5d6f4b8c18f6dc8e7199c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Meshes/Oak04.fbx using Guid(76214f7807f5d6f4b8c18f6dc8e7199c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0550f6f7f0591bf527734215c0a4c225') in 0.079054 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Meshes/Plant01.fbx
+  artifactKey: Guid(96c344af455a00e4b9e881d38add1ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Meshes/Plant01.fbx using Guid(96c344af455a00e4b9e881d38add1ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7710094d2bda3728e60d371f411588db') in 0.068487 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Meshes/Pine03.fbx
+  artifactKey: Guid(aab1477287c6ff640b137833c78be1a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Meshes/Pine03.fbx using Guid(aab1477287c6ff640b137833c78be1a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8cddccf5d4378d5f5b466b56e690c8b') in 0.080696 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Meshes/Palm_Tree02.fbx
+  artifactKey: Guid(c25acc87f5158534c991a9354294c303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Meshes/Palm_Tree02.fbx using Guid(c25acc87f5158534c991a9354294c303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2ca8ce0274b4f8291bfe0592d089252') in 0.076914 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Meshes/Sycamore02.fbx
+  artifactKey: Guid(d3d7519231ce6844c9fa2449a904dbd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Meshes/Sycamore02.fbx using Guid(d3d7519231ce6844c9fa2449a904dbd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ac08272fbf181f96b0a93e5ab932179') in 0.090686 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Meshes/Boulder13.fbx
+  artifactKey: Guid(9de6621ec926d3f4c953adefd6bee377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Meshes/Boulder13.fbx using Guid(9de6621ec926d3f4c953adefd6bee377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a42de15b6468f8000158b263e758023') in 0.235114 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Meshes/Boulder09.fbx
+  artifactKey: Guid(de5668539d77ec14786aa3c8de3433b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Meshes/Boulder09.fbx using Guid(de5668539d77ec14786aa3c8de3433b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a2c626aa1971258d1522c013a2276aa') in 0.147322 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Meshes/Boulder06.fbx
+  artifactKey: Guid(5c2272e0d74740442945371fca3e574e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Meshes/Boulder06.fbx using Guid(5c2272e0d74740442945371fca3e574e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b9cdb378bb8361c291312a52f872721') in 0.077788 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 31.430387 seconds.
+  path: Assets/Customizable Skybox/Stylized Sky/Materials/Day2.mat
+  artifactKey: Guid(5c80d49013691df48ac94280337e88ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable Skybox/Stylized Sky/Materials/Day2.mat using Guid(5c80d49013691df48ac94280337e88ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1114cce63b6ed906ade5175d35caa1c') in 0.138297 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/Customizable Skybox/Stylized Sky/Materials/Night4.mat
+  artifactKey: Guid(ed1387202b1349540a5d6464f0f27488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable Skybox/Stylized Sky/Materials/Night4.mat using Guid(ed1387202b1349540a5d6464f0f27488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54decb299b295f0868dde0f17acc2075') in 0.043445 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Customizable Skybox/Stylized Sky/Materials/Sunset5.mat
+  artifactKey: Guid(baef7505b9e48404cb74585601f49ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable Skybox/Stylized Sky/Materials/Sunset5.mat using Guid(baef7505b9e48404cb74585601f49ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '659e0760a788933f1e8825678abdf1e7') in 0.044191 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Customizable Skybox/Stylized Sky/Materials/Day4.mat
+  artifactKey: Guid(5c57bb9da366e944a8f4ae9be4f413ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable Skybox/Stylized Sky/Materials/Day4.mat using Guid(5c57bb9da366e944a8f4ae9be4f413ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdd35c23510cbfb21e5c95a564cf69ed') in 0.039824 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000679 seconds.
+  path: Assets/Customizable Skybox/Stylized Sky/Materials/Morning1.mat
+  artifactKey: Guid(8fc56946a1b593c4d8e3e0e94483338e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable Skybox/Stylized Sky/Materials/Morning1.mat using Guid(8fc56946a1b593c4d8e3e0e94483338e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e5ce7f5a5289fca20acdc4272a93505') in 0.047751 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Customizable Skybox/Stylized Sky/Materials/Sunset2.mat
+  artifactKey: Guid(528363c5c1cf6a7458140c6851c77b68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable Skybox/Stylized Sky/Materials/Sunset2.mat using Guid(528363c5c1cf6a7458140c6851c77b68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aebde42f10cddc9c78a9d99f955c6370') in 0.045478 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/Customizable Skybox/Stylized Sky/Materials/Sunset3.mat
+  artifactKey: Guid(7ed994c1997814049b44c36a823bba6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable Skybox/Stylized Sky/Materials/Sunset3.mat using Guid(7ed994c1997814049b44c36a823bba6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8820fd1e18128d4132baca6f183a413a') in 0.039892 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Customizable Skybox/Stylized Sky/Materials/Day7.mat
+  artifactKey: Guid(ddbcbb3899687ea469ed4a5fce1532df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable Skybox/Stylized Sky/Materials/Day7.mat using Guid(ddbcbb3899687ea469ed4a5fce1532df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c36b317603e28d91a1fb7ca86e8c096f') in 0.062903 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Customizable Skybox/Stylized Sky/Materials/Day3.mat
+  artifactKey: Guid(56113b3b655ab7349bab4d7d405c258a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable Skybox/Stylized Sky/Materials/Day3.mat using Guid(56113b3b655ab7349bab4d7d405c258a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66ee07d774dbb9d4e6a894c93f3d828f') in 0.241214 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.445580 seconds.
+  path: Assets/Customizable Skybox/Materials/dark trunk.mat
+  artifactKey: Guid(7c7f7e923f30d8b4193dfc9a7eb33ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable Skybox/Materials/dark trunk.mat using Guid(7c7f7e923f30d8b4193dfc9a7eb33ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd70950877b9b95e56650ac9124e06bd') in 0.034298 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Customizable Skybox/Materials/earth.mat
+  artifactKey: Guid(ef6223db6cd2fd94481bcb5ce352cc30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable Skybox/Materials/earth.mat using Guid(ef6223db6cd2fd94481bcb5ce352cc30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4808455bc82981d5bea027c93b80835') in 0.045195 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Customizable Skybox/Materials/darken leafs.mat
+  artifactKey: Guid(3020cfb028abb6c4f977e1db1f72bef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable Skybox/Materials/darken leafs.mat using Guid(3020cfb028abb6c4f977e1db1f72bef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4de153b230591f56e058b5c99b27dcb2') in 0.046529 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Customizable Skybox/Materials/green tree.mat
+  artifactKey: Guid(162ad232b242eb042b91b10dc755c486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable Skybox/Materials/green tree.mat using Guid(162ad232b242eb042b91b10dc755c486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbd724d8a9a71d076f60799f28861350') in 0.158939 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.283849 seconds.
+  path: Assets/Customizable Skybox/Model/Materials/darken leafs.mat
+  artifactKey: Guid(d35ea29c48c3e1944a4f03cab15e36c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable Skybox/Model/Materials/darken leafs.mat using Guid(d35ea29c48c3e1944a4f03cab15e36c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '085fe009060535ba05c2725f980d8a0b') in 0.018054 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Customizable Skybox/Model/Materials/green tree.mat
+  artifactKey: Guid(c856162727dc18842bc191504f727456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable Skybox/Model/Materials/green tree.mat using Guid(c856162727dc18842bc191504f727456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03185fd87a25f499a7c59039dd7f026e') in 0.036464 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Customizable Skybox/Model/Materials/Material.003.mat
+  artifactKey: Guid(0b82edc333f454f4fab3b93e8ececd1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable Skybox/Model/Materials/Material.003.mat using Guid(0b82edc333f454f4fab3b93e8ececd1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d7b6f21efeed18e7722d9776581cfa1') in 0.036447 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Customizable Skybox/Model/Materials/earth.mat
+  artifactKey: Guid(9d1ca55e2263fd54589900465f90d06e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable Skybox/Model/Materials/earth.mat using Guid(9d1ca55e2263fd54589900465f90d06e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6878ecfbd87d4c6dd8028702575b34bb') in 0.034493 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Customizable Skybox/Model/Materials/pine tree green.mat
+  artifactKey: Guid(b67fe0ad79964244383e7633743fcc6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable Skybox/Model/Materials/pine tree green.mat using Guid(b67fe0ad79964244383e7633743fcc6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd350d727e2541255b5ff7b08ef08eb00') in 0.030127 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 96.013295 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Overlay.mat
+  artifactKey: Guid(9ad269c99dcf42b7aedefd83dd5a7b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Overlay.mat using Guid(9ad269c99dcf42b7aedefd83dd5a7b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fd3824f2628a88fab3f02d1a43198a2') in 0.170524 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Soft Mask.mat
+  artifactKey: Guid(42df1c7856584b6b8db9a509b6b10074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Soft Mask.mat using Guid(42df1c7856584b6b8db9a509b6b10074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0174aacc4cb1e4593192fef4abf85cd8') in 0.137624 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 133.216729 seconds.
+  path: Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Materials/Pine_Fallen_Bark.mat
+  artifactKey: Guid(fc1bf5cbb70eb7a48b7778aa081f1739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Materials/Pine_Fallen_Bark.mat using Guid(fc1bf5cbb70eb7a48b7778aa081f1739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59e20660ecf8a6cdf2b1fcb49af3de84') in 0.046142 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Materials/Plant_Leaf_Light.mat
+  artifactKey: Guid(b31bf4bc164abae4d87095d18210b034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Materials/Plant_Leaf_Light.mat using Guid(b31bf4bc164abae4d87095d18210b034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '073691d7758be8e40be759f9dcf971e2') in 0.046074 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/SimpleSky/_Materials/SimpleSky.mat
+  artifactKey: Guid(e68f77e240a7f8643b5cc4253dc37516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleSky/_Materials/SimpleSky.mat using Guid(e68f77e240a7f8643b5cc4253dc37516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed0345c570c1eb8b075a781e1b23e4f8') in 0.076734 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Materials/Pine_Fallen_Inside.mat
+  artifactKey: Guid(9304a4cb800e9304b93975c0608eea20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Materials/Pine_Fallen_Inside.mat using Guid(9304a4cb800e9304b93975c0608eea20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c09d3e1982161b85fe0f76f7ad6c569d') in 0.050358 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Materials/Plant_Leaf_Dark.mat
+  artifactKey: Guid(c53d2377e41566441a564bd528e66bb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Materials/Plant_Leaf_Dark.mat using Guid(c53d2377e41566441a564bd528e66bb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '455593c9476f6c1d50ed004dd37fef24') in 0.335560 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Materials/Pine_Needles_Light.mat
+  artifactKey: Guid(b444089b11ca34442a9ec6b7bd82ff4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Materials/Pine_Needles_Light.mat using Guid(b444089b11ca34442a9ec6b7bd82ff4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4ca9ff7c60783f551cf20a004ea9a21') in 0.065590 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.425274 seconds.
+  path: Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Materials/Sycamore_Fallen_Bark.mat
+  artifactKey: Guid(f93795e025019d749a45ed9d14c93820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Materials/Sycamore_Fallen_Bark.mat using Guid(f93795e025019d749a45ed9d14c93820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2867789e6eaded12d6ae9a1ee703a2a') in 0.066388 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.432404 seconds.
+  path: Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Materials/Sycamore_Leaves.mat
+  artifactKey: Guid(f2111ff459918d74a979c20c029beef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Materials/Sycamore_Leaves.mat using Guid(f2111ff459918d74a979c20c029beef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f16855060bdb6ac250e4375e059ea7ce') in 0.064271 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.962518 seconds.
+  path: Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Materials/Willow_Fallen_Inside.mat
+  artifactKey: Guid(b6728add02111034a82bf01b26d780ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Materials/Willow_Fallen_Inside.mat using Guid(b6728add02111034a82bf01b26d780ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9656faab1769d3ca3a1a0a535398bcfb') in 0.050453 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Materials/Willow_Leaves_Dark.mat
+  artifactKey: Guid(99f9f3713cd56114fa2288f65eef8fec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creation Vibes/Low Poly Forests Creation Kit/Art/Materials/Willow_Leaves_Dark.mat using Guid(99f9f3713cd56114fa2288f65eef8fec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a108be4cfb86a446879ec463437be4c') in 0.050266 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.022127 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/collaborate-warning-dark@2x.png
+  artifactKey: Guid(45308e2aea842dd4e87bb30395d6e303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/collaborate-warning-dark@2x.png using Guid(45308e2aea842dd4e87bb30395d6e303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '249358a3dcf6a8b8f9be1723bb3e720b') in 0.435304 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1674.766208 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/added-file-dark@2x.png
+  artifactKey: Guid(c223e0c507e2c6549a2cb97441b62cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/added-file-dark@2x.png using Guid(c223e0c507e2c6549a2cb97441b62cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb78052f57df198b857cf85dd5e1a9ba') in 0.339605 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/JustPlay/TableAngular/Textures/Albedo_2048.png
+  artifactKey: Guid(143e4ee2000fc8841be996c7bbef9bbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JustPlay/TableAngular/Textures/Albedo_2048.png using Guid(143e4ee2000fc8841be996c7bbef9bbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96945bf94e9b38929a8ec6d4e8f3b511') in 0.568697 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.309093 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/back-light.png
+  artifactKey: Guid(e676ab7aa99535447a763c9f88bf9260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/back-light.png using Guid(e676ab7aa99535447a763c9f88bf9260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9001ffb55173d70969bcb6ebf95ed69') in 0.051531 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.475017 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignBaseLine_Light.psd
+  artifactKey: Guid(18775b51e3bd42299fd30bd036ea982f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignBaseLine_Light.psd using Guid(18775b51e3bd42299fd30bd036ea982f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42cfc1279a46fbaf1919953bf728d691') in 0.109208 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignBottom.psd
+  artifactKey: Guid(ca51b19024094d1b87f3e07edb0a75fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignBottom.psd using Guid(ca51b19024094d1b87f3e07edb0a75fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '688a0ac957d3505814a3661651efcf76') in 0.058739 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCapLine_Light.psd
+  artifactKey: Guid(49679f302ac6408697f6b9314a38985c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCapLine_Light.psd using Guid(49679f302ac6408697f6b9314a38985c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfe7d1f075d98d33dc2c1ed45056eb5a') in 0.168839 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCenter_Light.psd
+  artifactKey: Guid(6ace62d30f494c948b71d5594afce11d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCenter_Light.psd using Guid(6ace62d30f494c948b71d5594afce11d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b015c9d5bdadc3317989916f713e5cc3') in 0.219679 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignFlush_Light.psd
+  artifactKey: Guid(64b9fad609434c489c32b1cdf2004a1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignFlush_Light.psd using Guid(64b9fad609434c489c32b1cdf2004a1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '080ca94bd020d165cb99e13f0475fd69') in 0.080740 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignFlush.psd
+  artifactKey: Guid(691475c57a824010be0c6f474caeb7e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignFlush.psd using Guid(691475c57a824010be0c6f474caeb7e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75fe30df852767926f8b3227b2e5b618') in 0.106338 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignJustified_Light.psd
+  artifactKey: Guid(fa6bd40a216346b783a4cce741d277a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignJustified_Light.psd using Guid(fa6bd40a216346b783a4cce741d277a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '792430ad32230141f377b9b5d51160e7') in 0.069264 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.018275 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\elpin\OneDrive - Universidad de los Andes\7mo_semestre\Mixta\DemoRM1\DemoWM_RM\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\elpin\OneDrive - Universidad de los Andes\7mo_semestre\Mixta\DemoRM1\DemoWM_RM\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 3.24 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 15.156 seconds
+Domain Reload Profiling:
+	ReloadAssembly (15170ms)
+		BeginReloadAssembly (12019ms)
+			ExecutionOrderSort (1ms)
+			DisableScriptedObjects (132ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1555ms)
+		EndReloadAssembly (2826ms)
+			LoadAssemblies (812ms)
+			RebuildTransferFunctionScriptingTraits (2ms)
+			SetupTypeCache (799ms)
+			ReleaseScriptCaches (5ms)
+			RebuildScriptCaches (140ms)
+			SetupLoadedEditorAssemblies (1457ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (76ms)
+				SetLoadedEditorAssemblies (8ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (564ms)
+				ProcessInitializeOnLoadAttributes (742ms)
+				ProcessInitializeOnLoadMethodAttributes (46ms)
+				AfterProcessingInitializeOnLoad (17ms)
+				EditorAssembliesLoaded (2ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.90 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3442 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (218.9 KB). Loaded Objects now: 3985.
+Memory consumption went from 128.3 MB to 128.0 MB.
+Total: 16.196500 ms (FindLiveObjects: 0.481600 ms CreateObjectMapping: 0.594200 ms MarkObjects: 14.664700 ms  DeleteObjects: 0.452600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 480.982771 seconds.
+  path: Assets/LowPolyWater_Pack/Documentation/LowPolyWater.pdf
+  artifactKey: Guid(1e736811e92ce314fa59acbfa904053d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyWater_Pack/Documentation/LowPolyWater.pdf using Guid(1e736811e92ce314fa59acbfa904053d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bdbf49ea10a760e0bae292e6ccb4716') in 0.486949 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.141347 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\elpin\OneDrive - Universidad de los Andes\7mo_semestre\Mixta\DemoRM1\DemoWM_RM\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\elpin\OneDrive - Universidad de los Andes\7mo_semestre\Mixta\DemoRM1\DemoWM_RM\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.67 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.755 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3758ms)
+		BeginReloadAssembly (524ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (19ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (138ms)
+		EndReloadAssembly (2901ms)
+			LoadAssemblies (482ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1333ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (126ms)
+			SetupLoadedEditorAssemblies (898ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (37ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (203ms)
+				ProcessInitializeOnLoadAttributes (562ms)
+				ProcessInitializeOnLoadMethodAttributes (75ms)
+				AfterProcessingInitializeOnLoad (18ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 19.33 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3440 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (226.5 KB). Loaded Objects now: 3988.
+Memory consumption went from 128.1 MB to 127.8 MB.
+Total: 6.543800 ms (FindLiveObjects: 0.477900 ms CreateObjectMapping: 0.194600 ms MarkObjects: 5.286200 ms  DeleteObjects: 0.582400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.017177 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\elpin\OneDrive - Universidad de los Andes\7mo_semestre\Mixta\DemoRM1\DemoWM_RM\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\elpin\OneDrive - Universidad de los Andes\7mo_semestre\Mixta\DemoRM1\DemoWM_RM\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.14 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.533 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3536ms)
+		BeginReloadAssembly (392ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (23ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (100ms)
+		EndReloadAssembly (2830ms)
+			LoadAssemblies (246ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (815ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (137ms)
+			SetupLoadedEditorAssemblies (1308ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (118ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (254ms)
+				ProcessInitializeOnLoadAttributes (829ms)
+				ProcessInitializeOnLoadMethodAttributes (81ms)
+				AfterProcessingInitializeOnLoad (20ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 9.10 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3440 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (226.3 KB). Loaded Objects now: 3991.
+Memory consumption went from 128.1 MB to 127.8 MB.
+Total: 12.559900 ms (FindLiveObjects: 1.094200 ms CreateObjectMapping: 2.226700 ms MarkObjects: 8.560100 ms  DeleteObjects: 0.675700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 321.240864 seconds.
+  path: Assets/Low Poly Water/Plane Meshes/awa10x10W100H100.asset
+  artifactKey: Guid(d974d17306949e440b53337bcb60ee17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Water/Plane Meshes/awa10x10W100H100.asset using Guid(d974d17306949e440b53337bcb60ee17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ccf446b9855be9951baa50b6a8ecde6') in 0.318950 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016135 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\elpin\OneDrive - Universidad de los Andes\7mo_semestre\Mixta\DemoRM1\DemoWM_RM\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\elpin\OneDrive - Universidad de los Andes\7mo_semestre\Mixta\DemoRM1\DemoWM_RM\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.39 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.163 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4165ms)
+		BeginReloadAssembly (371ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (14ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (98ms)
+		EndReloadAssembly (3422ms)
+			LoadAssemblies (305ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1427ms)
+			ReleaseScriptCaches (6ms)
+			RebuildScriptCaches (168ms)
+			SetupLoadedEditorAssemblies (1305ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (49ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (266ms)
+				ProcessInitializeOnLoadAttributes (861ms)
+				ProcessInitializeOnLoadMethodAttributes (94ms)
+				AfterProcessingInitializeOnLoad (30ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (26ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 9.74 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3440 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (226.3 KB). Loaded Objects now: 3994.
+Memory consumption went from 128.1 MB to 127.9 MB.
+Total: 11.554600 ms (FindLiveObjects: 0.643100 ms CreateObjectMapping: 0.751200 ms MarkObjects: 9.496800 ms  DeleteObjects: 0.660600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 49.110712 seconds.
+  path: Assets/LowPolyWater_Pack/Textures/Foam.tga
+  artifactKey: Guid(5fbcffe9c2077f04186883cb39275fcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyWater_Pack/Textures/Foam.tga using Guid(5fbcffe9c2077f04186883cb39275fcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2031b06efcd162fd500d5231612091c') in 0.389348 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 46.170558 seconds.
+  path: Assets/LowPolyWater_Pack/LowPoly Island/Materials/IslandMat.mat
+  artifactKey: Guid(45d08f8aef3838d45806cd4442223977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyWater_Pack/LowPoly Island/Materials/IslandMat.mat using Guid(45d08f8aef3838d45806cd4442223977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8faab7cc99c50772a950c8537e0b6794') in 0.235796 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.622548 seconds.
+  path: Assets/LowPolyWater_Pack/LowPoly Island/textures/textureSurface_Color_2.jpg
+  artifactKey: Guid(c4b4ad6529883dc43874119c9045638a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyWater_Pack/LowPoly Island/textures/textureSurface_Color_2.jpg using Guid(c4b4ad6529883dc43874119c9045638a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '591d554668ba1d68afb3987fada1679e') in 0.051694 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016389 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\elpin\OneDrive - Universidad de los Andes\7mo_semestre\Mixta\DemoRM1\DemoWM_RM\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\elpin\OneDrive - Universidad de los Andes\7mo_semestre\Mixta\DemoRM1\DemoWM_RM\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.15 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.399 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3401ms)
+		BeginReloadAssembly (337ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (15ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (90ms)
+		EndReloadAssembly (2766ms)
+			LoadAssemblies (228ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (857ms)
+			ReleaseScriptCaches (7ms)
+			RebuildScriptCaches (326ms)
+			SetupLoadedEditorAssemblies (1081ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (43ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (237ms)
+				ProcessInitializeOnLoadAttributes (701ms)
+				ProcessInitializeOnLoadMethodAttributes (74ms)
+				AfterProcessingInitializeOnLoad (22ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (20ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 10.62 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3440 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (187.8 KB). Loaded Objects now: 3997.
+Memory consumption went from 128.1 MB to 127.9 MB.
+Total: 10.551100 ms (FindLiveObjects: 0.628200 ms CreateObjectMapping: 0.684400 ms MarkObjects: 8.813500 ms  DeleteObjects: 0.421700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014561 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\elpin\OneDrive - Universidad de los Andes\7mo_semestre\Mixta\DemoRM1\DemoWM_RM\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\elpin\OneDrive - Universidad de los Andes\7mo_semestre\Mixta\DemoRM1\DemoWM_RM\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 3.58 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.958 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2960ms)
+		BeginReloadAssembly (377ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (16ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (100ms)
+		EndReloadAssembly (2279ms)
+			LoadAssemblies (260ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (675ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (97ms)
+			SetupLoadedEditorAssemblies (1134ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (152ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (339ms)
+				ProcessInitializeOnLoadAttributes (537ms)
+				ProcessInitializeOnLoadMethodAttributes (82ms)
+				AfterProcessingInitializeOnLoad (17ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 6.02 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3440 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (226.6 KB). Loaded Objects now: 4000.
+Memory consumption went from 128.1 MB to 127.9 MB.
+Total: 8.779400 ms (FindLiveObjects: 0.508100 ms CreateObjectMapping: 0.554800 ms MarkObjects: 7.313100 ms  DeleteObjects: 0.401100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 297.134013 seconds.
+  path: Assets/Low Poly Water/Plane Meshes/Plane80x80W800H800.asset
+  artifactKey: Guid(a247d4e6236e34442ad19caeeb52ce92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Water/Plane Meshes/Plane80x80W800H800.asset using Guid(a247d4e6236e34442ad19caeeb52ce92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cafd4ab5363997dceb760932171506d') in 0.256756 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012488 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\elpin\OneDrive - Universidad de los Andes\7mo_semestre\Mixta\DemoRM1\DemoWM_RM\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\elpin\OneDrive - Universidad de los Andes\7mo_semestre\Mixta\DemoRM1\DemoWM_RM\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.76 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.803 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2805ms)
+		BeginReloadAssembly (304ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (19ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (74ms)
+		EndReloadAssembly (1948ms)
+			LoadAssemblies (213ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (651ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (103ms)
+			SetupLoadedEditorAssemblies (856ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (31ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (167ms)
+				ProcessInitializeOnLoadAttributes (564ms)
+				ProcessInitializeOnLoadMethodAttributes (63ms)
+				AfterProcessingInitializeOnLoad (27ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 7.83 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3440 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (226.4 KB). Loaded Objects now: 4003.
+Memory consumption went from 128.1 MB to 127.9 MB.
+Total: 12.915500 ms (FindLiveObjects: 0.955600 ms CreateObjectMapping: 0.822200 ms MarkObjects: 10.708300 ms  DeleteObjects: 0.425800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 49.215505 seconds.
+  path: Assets/Low Poly Water/Plane Meshes/Plane80x80W800H800.asset
+  artifactKey: Guid(a247d4e6236e34442ad19caeeb52ce92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Water/Plane Meshes/Plane80x80W800H800.asset using Guid(a247d4e6236e34442ad19caeeb52ce92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a25075c00e346f1d5b65209e3f7bfec') in 0.250310 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.017966 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\elpin\OneDrive - Universidad de los Andes\7mo_semestre\Mixta\DemoRM1\DemoWM_RM\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\elpin\OneDrive - Universidad de los Andes\7mo_semestre\Mixta\DemoRM1\DemoWM_RM\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.43 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.786 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3788ms)
+		BeginReloadAssembly (410ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (19ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (97ms)
+		EndReloadAssembly (3030ms)
+			LoadAssemblies (277ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1056ms)
+			ReleaseScriptCaches (16ms)
+			RebuildScriptCaches (279ms)
+			SetupLoadedEditorAssemblies (1105ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (44ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (247ms)
+				ProcessInitializeOnLoadAttributes (706ms)
+				ProcessInitializeOnLoadMethodAttributes (78ms)
+				AfterProcessingInitializeOnLoad (26ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (20ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 10.44 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3440 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (226.6 KB). Loaded Objects now: 4006.
+Memory consumption went from 128.1 MB to 127.9 MB.
+Total: 12.694300 ms (FindLiveObjects: 0.622900 ms CreateObjectMapping: 0.706800 ms MarkObjects: 10.731000 ms  DeleteObjects: 0.630200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 110.705455 seconds.
+  path: Assets/Low Poly Water/Plane Meshes/Plane254x254W800H800.asset
+  artifactKey: Guid(f24704e5d58d4574299c36225cf7d1c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Water/Plane Meshes/Plane254x254W800H800.asset using Guid(f24704e5d58d4574299c36225cf7d1c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90390370f0ddaffaac3d4e9450ff5338') in 1.106743 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013293 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\elpin\OneDrive - Universidad de los Andes\7mo_semestre\Mixta\DemoRM1\DemoWM_RM\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\elpin\OneDrive - Universidad de los Andes\7mo_semestre\Mixta\DemoRM1\DemoWM_RM\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.95 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.624 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3627ms)
+		BeginReloadAssembly (595ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (63ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (129ms)
+		EndReloadAssembly (2686ms)
+			LoadAssemblies (317ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (757ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (114ms)
+			SetupLoadedEditorAssemblies (1447ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (49ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (566ms)
+				ProcessInitializeOnLoadAttributes (733ms)
+				ProcessInitializeOnLoadMethodAttributes (69ms)
+				AfterProcessingInitializeOnLoad (25ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (20ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 16.76 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3440 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (226.3 KB). Loaded Objects now: 4009.
+Memory consumption went from 128.1 MB to 127.9 MB.
+Total: 9.910600 ms (FindLiveObjects: 0.765300 ms CreateObjectMapping: 0.883700 ms MarkObjects: 7.776700 ms  DeleteObjects: 0.481100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 206.763081 seconds.
+  path: Assets/Low Poly Water/Plane Meshes/Plane10x10W800H800.asset
+  artifactKey: Guid(03be74eae256b884c988c8c223c34ced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Water/Plane Meshes/Plane10x10W800H800.asset using Guid(03be74eae256b884c988c8c223c34ced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b2018314d93fdb2dd2b962e8d5f1856') in 0.290903 seconds 
