@@ -3,7 +3,17 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - lvl1
+  - cylinder1
+  - cylinder2
+  - cylinder3
+  - cylinder4
+  - cylinder5
+  - lvl2
+  - lvl3
+  - lvl4
+  - lvl5
   layers:
   - Default
   - TransparentFX
