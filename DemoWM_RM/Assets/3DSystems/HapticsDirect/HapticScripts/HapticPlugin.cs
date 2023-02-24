@@ -42,13 +42,13 @@ using UnityEditor;
 [Serializable]
 public class HapticEvents
 {
-    
+
     public UnityEvent OnClickButton1;
 
     public UnityEvent OnReleaseButton1;
-        
+
     public UnityEvent OnHoldButton1;
-    
+
     public UnityEvent OnClickButton2;
 
     public UnityEvent OnReleaseButton2;
@@ -73,7 +73,7 @@ public class HapticPlugin : MonoBehaviour
     [DllImport("HapticsDirect")] public static extern void startSchedulers(); //!< Starts the Open Haptic schedulers and assigns the required internal callbacks
 
     // Device Information
-    [DllImport("HapticsDirect")] public static extern void getWorkspaceArea(string configName, double[] usable6, double[] max6); //!< Retrieves the bounds created by the physical limitations of the device. 
+    [DllImport("HapticsDirect")] public static extern void getWorkspaceArea(string configName, double[] usable6, double[] max6); //!< Retrieves the bounds created by the physical limitations of the device.
 
     // Updates
     [DllImport("HapticsDirect")] public static extern void getPosition(string configName, double[] position3); //!< Get the current position in mm of the device facing the device base. Left is + x, up is +y, toward user is +z. (Unity CSys)
@@ -91,12 +91,12 @@ public class HapticPlugin : MonoBehaviour
     [DllImport("HapticsDirect")] public static extern void getLocalForces(string configName, double[] stiffnessForce, double[] viscosityForce, double[] dynamicFrictionForce, double[] staticFrictionForce, double[] constantForce, double[] springForce);
 
     // Force output
-    [DllImport("HapticsDirect")] public static extern void setForce(string configName, double[] lateral3, double[] torque3); //!< Adds an additional force to the haptic device. Can be eseed for scripted forces, but in most cases using an Effect is preferable. 
-        
+    [DllImport("HapticsDirect")] public static extern void setForce(string configName, double[] lateral3, double[] torque3); //!< Adds an additional force to the haptic device. Can be eseed for scripted forces, but in most cases using an Effect is preferable.
+
     [DllImport("HapticsDirect")] public static extern void setAnchorPosition(string configName, double[] position3); //!< Set the anchor position of the virtual stylus (Unity CSys)
 
     [DllImport("HapticsDirect")] public static extern void addContactPointInfo(string configName, double[] Location, double[] Normal, float MatStiffness, float MatDamping, double[] MatForce,
-    float MatViscosity, float MatFrictionStatic, float MatFrictionDynamic, double[] MatConstForceDir, float MatConstForceMag, double[] MatSpringDir, float MatSpringMag, float MatPopThroughRel, float MatPopThroughAbs, 
+    float MatViscosity, float MatFrictionStatic, float MatFrictionDynamic, double[] MatConstForceDir, float MatConstForceMag, double[] MatSpringDir, float MatSpringMag, float MatPopThroughRel, float MatPopThroughAbs,
     double MatMass, double RigBSpeed, double[] RigBVelocity, double[] RigBAngularVelocity, double RigBMass, double[] ColImpulse, double PhxDeltaTime, double ImpulseDepth); //!< Add a collision contact point info to the contact points list
     [DllImport("HapticsDirect")] public static extern void updateContactPointInfo(string configName); //!< Update the contact point info list
     [DllImport("HapticsDirect")] public static extern void resetContactPointInfo(string configName); //!< Reset the contact point info list
@@ -110,7 +110,7 @@ public class HapticPlugin : MonoBehaviour
 
     //Cleanup functions
     //! Disconnects from all devices.
-    
+
     [DllImport("HapticsDirect")] public static extern void disconnectAllDevices();
 
     //Error Handling Functions
@@ -120,10 +120,10 @@ public class HapticPlugin : MonoBehaviour
     #endregion
 
     #region Inspector
-    // Plugin Menu 
+    // Plugin Menu
 
     private bool enablef = false;
-    
+
 
 
     [Header("Device Setup")]
@@ -150,6 +150,13 @@ public class HapticPlugin : MonoBehaviour
     [Tooltip("The Visual Mesh represents the on screen stylus. It can be any mesh.")]
     [StackableField]
     public GameObject VisualizationMesh;
+
+    [Header("On Screen Stylus")]
+    [Label(title = "Fake Mesh")]
+    [Tooltip("The Visual Mesh represents the on screen stylus. It can be any mesh.")]
+    [StackableField]
+    public GameObject FakeMesh;
+
     [Label(title = "Collision Mesh")]
     [Tooltip("The Collision Mesh has the function of a collider of the on screen stylus. It consists of a (convex) mesh, one or more convex colliders, a rigid body and the HapticCollider.cs script.")]
     [StackableField]
@@ -235,7 +242,7 @@ public class HapticPlugin : MonoBehaviour
     [EnableIf("$enablef", disable = true)]
     [StackableField]
     public Vector3 GimbalAngles;
-       
+
 
     [Label(title = "Use Simple Buttons Setup")]
     [Tooltip("The Simple Button Setup provides a simple way to define the buttons of the haptic device for grabbing and releasing objects. ")]
@@ -275,9 +282,9 @@ public class HapticPlugin : MonoBehaviour
     [Label(title = "Hold")]
     [StackableField]
     public bool bButton2h;
-    
+
     public HapticEvents Events;
-          
+
 
     public enum BoxType { usableWorkspace, maxWorkspace };
     public enum Axis { X = 1, Y = 2, Z = 4 }
@@ -621,19 +628,19 @@ public class HapticPlugin : MonoBehaviour
     Vector3 springForceD;
 
     int counter = 0;
-    
+
     // Camera
     GameObject inital_camera_rot;
     private bool enable_WS_translate = false;
     private bool enable_WS_rotate = false;
-    bool[] isDZFirst = { false, false, false, false, false,false }; 
+    bool[] isDZFirst = { false, false, false, false, false,false };
     // Global FX
     //bool enable_Vibration = false;
 
     bool enable_GlobalConstForce = false;
 
     private GameObject ExternalRBControl = null;
-    
+
     #endregion
 
     #region ContactPointInfo_Exchange
@@ -684,8 +691,8 @@ public class HapticPlugin : MonoBehaviour
     public List<ActiveMaterial> ActiveMaterials = new List<ActiveMaterial>();
 
     #endregion
-        
-    #region Unity_Default_Functions 
+
+    #region Unity_Default_Functions
     void OnEnable()
     {
         Buttons = new int[4];
@@ -695,7 +702,7 @@ public class HapticPlugin : MonoBehaviour
         {
             Buttons[i] = 0;
             LastButtons[i] = 0;
-            
+
         }
 
         if (ScaleToMeter)
@@ -719,7 +726,7 @@ public class HapticPlugin : MonoBehaviour
 
         isTouching = false;
         hapticErrorQueue = new Queue();
-        
+
 
     }
 
@@ -736,12 +743,12 @@ public class HapticPlugin : MonoBehaviour
             inital_camera_rot = new GameObject("Temp");
             inital_camera_rot.transform.rotation = masterCamera.transform.rotation;
         }
-        
+
     }
 
     private void Update()
     {
-               
+
 
     }
 
@@ -833,7 +840,7 @@ public class HapticPlugin : MonoBehaviour
         // Make sure camera and plugin exist.
         if (masterCamera == null)
             return;
-                     
+
 
         // Extents are in array, these are the indexes
         const int minX = 0;
@@ -870,7 +877,7 @@ public class HapticPlugin : MonoBehaviour
                 (float)(max_extents[maxZ] + max_extents[minZ]) / 2);
         }
 
-        
+
         float objectSize = Mathf.Max(hapticWidth, hapticHeight, hapticDepth);
         float cameraView = 2.0f * Mathf.Tan(0.5f * Mathf.Deg2Rad * masterCamera.fieldOfView); // Visible height 1 meter in front
         float distance = CameraDistance * objectSize / cameraView; // Combined wanted distance from the object
@@ -879,7 +886,7 @@ public class HapticPlugin : MonoBehaviour
         masterCamera.transform.position = transform.position - distance * masterCamera.transform.forward;
         //masterCamera.transform.rotation = inital_camera_rot.transform.rotation * plugin.transform.rotation;
         //masterCamera.transform.rotation = plugin.transform.rotation * inital_camera_rot.transform.rotation;
-       
+
     }
 
     private static float AngleToNeg(float angle)
@@ -904,7 +911,7 @@ public class HapticPlugin : MonoBehaviour
     private bool[] isInRotRange()
     {
         bool[] inRange = { false, false, false, false, false, false };
-        
+
 
         //Debug.Log(AngleToNeg(this.transform.localRotation.eulerAngles.x));
         if (AngleToNeg(this.transform.localRotation.eulerAngles.x) > Min_RNav.x)
@@ -919,7 +926,7 @@ public class HapticPlugin : MonoBehaviour
         if (AngleToNeg(this.transform.localRotation.eulerAngles.y) > Min_RNav.y)
         {
             inRange[1] = true;
-            
+
         }
         if (AngleToNeg(this.transform.localRotation.eulerAngles.y) < Max_RNav.y)
         {
@@ -1147,26 +1154,26 @@ public class HapticPlugin : MonoBehaviour
                 if (isInZone(GimbalAngles.x, SliderRYZ0))
                 {
                     sry = 0.0f;
-                } else 
+                } else
                 if (isInZone(GimbalAngles.x, SliderRYZ1n) && inRRange[1])
                 {
                     sry = SpeedR1 * -1.0f;
-                    
+
                 } else
                 if (isInZone(GimbalAngles.x, SliderRYZ1p) && inRRange[4])
                 {
                     sry = SpeedR1;
-                    
+
                 } else
                 if (GimbalAngles.x < SliderRYZ1n.x && inRRange[1])
                 {
                     sry = SpeedR2 * -1.0f;
-                    
+
                 } else
                 if (GimbalAngles.x > SliderRYZ1p.x && inRRange[4])
                 {
                     sry = SpeedR2;
-                    
+
                 }
             }
 
@@ -1209,7 +1216,7 @@ public class HapticPlugin : MonoBehaviour
         }
         if (enable_WS_rotate)
         {
-            
+
             if (TransformAnchor != null)
             {
                 transform.RotateAround(TransformAnchor.transform.position, Vector3.right, srx);
@@ -1221,7 +1228,7 @@ public class HapticPlugin : MonoBehaviour
             {
                 transform.Rotate(srx, sry, srz);
             }
-           
+
             //transform.rotation = VisualizationMesh.transform.rotation;
         }
     }
@@ -1229,7 +1236,7 @@ public class HapticPlugin : MonoBehaviour
     public bool[] GetDZZero()
     {
         return isDZFirst;
-    } 
+    }
 
     public bool GetDZZero(int index)
     {
@@ -1248,7 +1255,7 @@ public class HapticPlugin : MonoBehaviour
             isDZFirst[i] = false;
         }
     }
-    
+
     private void UpdateDZZero()
     {
         if (InDZfirst)
@@ -1270,8 +1277,8 @@ public class HapticPlugin : MonoBehaviour
         }
     }
     #endregion
-    
-    #region Public_Control_Functions 
+
+    #region Public_Control_Functions
     public void EnableVibration()
     {
         setVibrationValues(DeviceIdentifier, Vector3ToDoubleArray(VibrationGDir), VibrationGMag, VibrationGFrequency, 0.0);
@@ -1418,11 +1425,11 @@ public class HapticPlugin : MonoBehaviour
         }
         else
         {
-            
+
             StringBuilder sb = new StringBuilder(256);
             getDeviceSN(DeviceIdentifier, sb, sb.Capacity);
             SerialNumber = sb.ToString();
-            sb.Clear();           
+            sb.Clear();
             getDeviceModel(DeviceIdentifier, sb, sb.Capacity);
             ModelType = sb.ToString();
 
@@ -1430,7 +1437,7 @@ public class HapticPlugin : MonoBehaviour
 
             getDeviceMaxValues(DeviceIdentifier, ref MaxStiffness, ref MaxDamping, ref MaxForce);
             getWorkspaceArea(DeviceIdentifier, usable_extents, max_extents);
-            
+
 
             if (ScaleToMeter)
             {
@@ -1489,7 +1496,7 @@ public class HapticPlugin : MonoBehaviour
         mat.m32 = (float)matInput[14];
         mat.m33 = (float)matInput[15];
         DeviceTransformRaw = mat.transpose;
-        
+
     }
 
     public void UpdateDeviceInformation()
@@ -1503,7 +1510,7 @@ public class HapticPlugin : MonoBehaviour
 
         getPosition(DeviceIdentifier, temp_double_array);
         CurrentPosition = DoubleArrayToVector3(temp_double_array);
-        
+
         getVelocity(DeviceIdentifier, temp_double_array);
         CurrentVelocity = DoubleArrayToVector3(temp_double_array);
 
@@ -1560,10 +1567,10 @@ public class HapticPlugin : MonoBehaviour
 
 
         //VisualizationMesh.transform.SetPositionAndRotation(newMatrix.ExtractPosition(), newMatrix.ExtractRotation());
-                
+
 
         Rigidbody rBody = CollisionMesh.GetComponent<Rigidbody>();
-                
+
         targetPos = newMatrix.ExtractPosition();
         deltaPos = targetPos - rBody.position;
         new_direction = deltaPos.normalized;
@@ -1571,18 +1578,19 @@ public class HapticPlugin : MonoBehaviour
         distance = deltaPos.magnitude;
 
         //Debug.Log("Deltaposition:" + deltaPos.magnitude);
-        
+
         if (transformDirect==true)
         {
             rBody.position = targetPos;
             rBody.drag = 0;
             VisualizationMesh.transform.SetPositionAndRotation(newMatrix.ExtractPosition(), newMatrix.ExtractRotation());
-
+            FakeMesh.transform.SetPositionAndRotation(newMatrix.ExtractPosition(), newMatrix.ExtractRotation());
         }
         else
         {
             //VisualizationMesh.transform.SetPositionAndRotation(newMatrix.ExtractPosition(), newMatrix.ExtractRotation());
             VisualizationMesh.transform.SetPositionAndRotation(newMatrix.ExtractPosition() - deltaPos, newMatrix.ExtractRotation());
+            FakeMesh.transform.SetPositionAndRotation(newMatrix.ExtractPosition() - deltaPos, newMatrix.ExtractRotation());
             if (distance > 0.1*ScaleFactor)
             {
                 magnitude = 20.0f;
@@ -1597,9 +1605,9 @@ public class HapticPlugin : MonoBehaviour
                 magnitude = 0.0f;
                 //rBody.drag = 50;
                 rBody.drag = 1;
-                
 
-                
+
+
             }
         }
 
@@ -1623,7 +1631,7 @@ public class HapticPlugin : MonoBehaviour
             if (J.connectedBody != null)
             {
                 J.connectedBody.AddTorque(rBody.angularVelocity, ForceMode.VelocityChange);
-                
+
             }
         }
 
@@ -1651,15 +1659,15 @@ public class HapticPlugin : MonoBehaviour
         {
 
             Events.OnClickButton1.Invoke();
-            
-            
+
+
         }
         if(LastButtons[0] == 1 && Buttons[0] == 1)
         {
-            
+
             Events.OnHoldButton1.Invoke();
-            
-            
+
+
         }
         if(LastButtons[0] == 1 && Buttons[0] == 0)
         {
@@ -1741,7 +1749,7 @@ public class HapticPlugin : MonoBehaviour
 
             }
             else
-            { 
+            {
                 if (LastButtons[1] != Buttons[1])
                 {
                     if (bButton2g == true && Buttons[1] == 1 && bIsGrabbingActive == false)
@@ -1774,12 +1782,12 @@ public class HapticPlugin : MonoBehaviour
         if (isCollisionExit)
         {
             transformDirect = true;
-            
+
             ContactPointsInfo.Clear();
             resetContactPointInfo(DeviceIdentifier);
             //updateContactPointInfo(DeviceIdentifier);
             isTouching = false;
-            
+
 
         }
 
@@ -1849,7 +1857,7 @@ public class HapticPlugin : MonoBehaviour
             //Debug.Log("VPos: " + v_stylus_pos.ToString("F5"));
             //Debug.Log("RRPos: " + rr_stylus_pos.ToString("F5"));
             //Debug.Log("RPos: " + r_stylus_pos.ToString("F5"));
-            
+
             //Debug.Log("CN: " + contact_normal.ToString("F5"));
             //Debug.Log("CP: " + contact_point.ToString("F5"));
 
@@ -1866,20 +1874,20 @@ public class HapticPlugin : MonoBehaviour
             //Debug.Log("EPOS: " + epos.ToString("F5"));
 
             UpdateForceOnCollision(collision);
-            
+
             //updateContactPointInfo(DeviceIdentifier);
 
 
 
         }
-     
-        
+
+
     }
 
-    
+
     public void UpdateForceOnCollision(Collision collision)
     {
-        
+
 
         int sFac, vFac,impCorrection;
 
@@ -1891,7 +1899,7 @@ public class HapticPlugin : MonoBehaviour
         HapticMaterial hapMat = collision.collider.GetComponent<HapticMaterial>();
         if (hapMat != null)
         {
-                                    
+
             ActiveMaterial activeMaterial = new ActiveMaterial();
 
             if (!isInMaterialList(hapMat.MaterialID))
@@ -1903,7 +1911,7 @@ public class HapticPlugin : MonoBehaviour
             }
             else
             {
-                
+
                 if (hapMat.hPopthAbs > 0.1f)
                 {
                     if (!isPopThroughDone(hapMat.MaterialID))
@@ -1934,7 +1942,7 @@ public class HapticPlugin : MonoBehaviour
                     sFac = 1;
                     vFac = 1;
                 }
-                
+
 
             }
 
@@ -1953,11 +1961,11 @@ public class HapticPlugin : MonoBehaviour
             for (int i = 0; i < collision.contactCount; i++)
             {
                 ContactPointInfo contInfo = new ContactPointInfo();
-                             
+
 
                 contInfo.Location = gameObject.transform.InverseTransformPoint(collision.GetContact(i).point)/ScaleFactor;
                 contInfo.Normal = gameObject.transform.InverseTransformVector(collision.GetContact(i).normal);
-                
+
                 contInfo.MaterialMass = hapMat.hMass;
                 contInfo.MaterialStiffness = hapMat.hStiffness*sFac;
                 if(hapMat.hStiffness > CollisionMesh.GetComponent<HapticCollider>().hStiffness)
@@ -1993,7 +2001,7 @@ public class HapticPlugin : MonoBehaviour
                     contInfo.MatConstForceDir = contInfo.Normal;
                     if(hapMat.ContactNormalInverseCF)
                     {
-                        contInfo.MatConstForceDir *= -1.0f; 
+                        contInfo.MatConstForceDir *= -1.0f;
                     }
                 }
 
@@ -2003,7 +2011,7 @@ public class HapticPlugin : MonoBehaviour
                 {
                     contInfo.MatSpringDir = gameObject.transform.InverseTransformPoint(hapMat.SpringAnchorObj.transform.position) / ScaleFactor;
                 }
-              
+
 
                 if (collision.collider.GetComponent<Rigidbody>() != null)
                 {
@@ -2031,22 +2039,22 @@ public class HapticPlugin : MonoBehaviour
 
                 contInfo.ColliderName = collision.collider.name;
 
-                
+
                 if (contInfo.Normal.magnitude > 0 && !isInCPList(contInfo))
                 {
-                                        
+
                     ContactPointsInfo.Add(contInfo);
-                    
+
                 }
-                
+
                 LastContact = contInfo.Location;
                 LastContactNormal = contInfo.Normal;
-                
-                
+
+
                //Debug.DrawRay(contInfo.Location*ScaleFactor, contInfo.Normal/10, Color.green, 2, false);
             }
 
-           
+
         }
         if (collision.rigidbody != null)
         {
@@ -2087,7 +2095,7 @@ public class HapticPlugin : MonoBehaviour
                                 ContactPointsInfo[i].PhxDeltaTime,
                                 ContactPointsInfo[i].ImpulseDepth);
             counter++;
-            
+
         }
         //Debug.Log("Number of Collision Points:" + counter);
         updateContactPointInfo(DeviceIdentifier);
@@ -2145,7 +2153,7 @@ public class HapticPlugin : MonoBehaviour
             GrabObject = parent;
             grabObjectbody = GrabObject.GetComponent<Rigidbody>();
         }
-        
+
 
         //CollisionMesh.GetComponent<Rigidbody>().isKinematic = true;
         if (grabObjectbody != null) {
@@ -2170,10 +2178,10 @@ public class HapticPlugin : MonoBehaviour
 
                 }
             }
-         
+
         }
 
-    
+
 }
 
 
@@ -2183,7 +2191,7 @@ public class HapticPlugin : MonoBehaviour
             return;
 
         Debug.Assert(joint != null);
-              
+
 
         joint.connectedBody = null;
         Destroy(joint);
@@ -2200,7 +2208,7 @@ public class HapticPlugin : MonoBehaviour
 
     }
     #endregion
-    
+
     #region Helpers
     public bool CorrectValues()
     {
@@ -2248,7 +2256,7 @@ public class HapticPlugin : MonoBehaviour
             }
         }
         return result;
-                
+
     }
 
 
@@ -2267,7 +2275,7 @@ public class HapticPlugin : MonoBehaviour
                 //tempMat.SpringDone = ActiveMaterials[i].SpringDone;
 
                 ActiveMaterials[i] = tempMat;
-                
+
             }
         }
     }
@@ -2288,13 +2296,13 @@ public class HapticPlugin : MonoBehaviour
             if(cpi.ColliderName == ContPI.ColliderName)
             {
                 result = true;
-            }            
+            }
         }
 
 
         return result;
 
-    } 
+    }
 
     private bool CheckImpulseDirection(Collision collision)
     {
@@ -2306,7 +2314,7 @@ public class HapticPlugin : MonoBehaviour
 
             ContPointSum = ContPointSum + gameObject.transform.InverseTransformVector(collision.GetContact(i).normal);
         }
-                        
+
         float angle = Vector3.Angle(ContPointSum, collision.impulse);
         //Debug.Log("Normal / Impulse Angle: " + angle);
 
@@ -2381,7 +2389,7 @@ public class HapticPlugin : MonoBehaviour
 
         return outDoubles;
     }
-    //Convert Matrix4x4 to double[]  
+    //Convert Matrix4x4 to double[]
     private static double[] MatrixToDoubleArray(Matrix4x4 M)
     {
         double[] out16 = new double[16];
@@ -2405,7 +2413,7 @@ public class HapticPlugin : MonoBehaviour
         out16[13] = M.m13;
         out16[14] = M.m23;
         out16[15] = M.m33;
-      
+
         return out16;
     }
     #endregion
@@ -2414,14 +2422,14 @@ public class HapticPlugin : MonoBehaviour
 #if UNITY_EDITOR
 
 
-    
+
     // In editor Gizmos
     void OnDrawGizmos()
     {
         if (DeviceHHD >= 0)
         {
             // Draw Extants
-            
+
                 const int minX = 0;
                 const int minY = 1;
                 const int minZ = 2;
@@ -2486,8 +2494,8 @@ public class HapticPlugin : MonoBehaviour
                 }
                 Gizmos.matrix = gameObject.transform.localToWorldMatrix;
                 Gizmos.DrawWireCube(maxCenter, maxBox);
-                
-            
+
+
 
             // Draw Stylus!
             if (bIsGrabbing)
@@ -2498,7 +2506,7 @@ public class HapticPlugin : MonoBehaviour
             {
                 Gizmos.color = Color.white;
             }
-            
+
             Gizmos.matrix = gameObject.transform.localToWorldMatrix * DeviceTransformRaw;
             Gizmos.DrawWireSphere(Vector3.zero, 10);
             Gizmos.color = Color.white;
@@ -2536,7 +2544,7 @@ public class HapticPlugin : MonoBehaviour
             Gizmos.matrix = Matrix4x4.identity;
 
             //Gizmos.matrix.s .SetTRS(CollisionMesh.transform.position, Quaternion.identity, new Vector3(1.0f, 1.0f, 1.0f));
-            
+
              Gizmos.DrawCube(CollisionMesh.transform.position + new Vector3(0.0f, 0.05f * MagForce / 2.0f, 0.0f), new Vector3(0.01f, 0.05f * MagForce, 0.01f));
              //Gizmos.DrawCube(CollisionMesh.transform.position + new Vector3(10.0f*MagForce, 0.0f,0.0f) , new Vector3(-20.0f*MagForce, 20.0f, 0.01f));
              Handles.Label(CollisionMesh.transform.position + new Vector3(0.0f, 0.05f * MagForce / 2.0f, 0.0f) + new Vector3(0.0f, 0.05f * MagForce / 2 + 0.025f, 0.0f), "" + MagForce, style);
@@ -2556,7 +2564,7 @@ public class HapticPlugin : MonoBehaviour
                 //Gizmos.DrawCube(usableCenter + new Vector3(0.0f, 0.05f * stiffnessForceD.magnitude / 2.0f, 0.0f), new Vector3(0.01f, 0.05f * stiffnessForceD.magnitude, 0.01f));
                 Gizmos.DrawCube(usableCenter + new Vector3(-0.05f * stiffnessForceD.magnitude / 2.0f, 0.0f, 0.0f), new Vector3(-0.05f * stiffnessForceD.magnitude, 0.01f, 0.01f));
                 //Gizmos.DrawCube(CollisionMesh.transform.position + new Vector3(10.0f*MagForce, 0.0f,0.0f) , new Vector3(-20.0f*MagForce, 20.0f, 0.01f));
-                
+
                 Handles.Label(gameObject.transform.localToWorldMatrix.MultiplyPoint(usableCenter) + new Vector3(-0.05f * stiffnessForceD.magnitude / 2.0f - 0.01f, 0.005f, 0.0f) + new Vector3(-0.05f * stiffnessForceD.magnitude / 2 - 0.025f, 0.005f, 0.0f), "" + stiffnessForceD.magnitude, style1);
             }*/
         }
@@ -2598,7 +2606,7 @@ public class FieldPropertiesEditor : PropertyDrawer
     {
         GUI.enabled = (attribute as FieldPropertiesAttribute).ShowPropOnly;
         EditorGUI.PropertyField(position, property, new GUIContent((attribute as FieldPropertiesAttribute).NewName));
-        GUI.enabled = true;        
+        GUI.enabled = true;
 
     }
 }
@@ -2608,7 +2616,7 @@ public class HapticInspector : Editor
 {
     public override void OnInspectorGUI()
     {
-        
+
         HapticPlugin hp = (HapticPlugin)target;
         if(GUILayout.Button("Update Device Info"))
         {

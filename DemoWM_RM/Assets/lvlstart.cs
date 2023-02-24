@@ -48,8 +48,11 @@ public class lvlstart : MonoBehaviour
                 }
             }
 
+            // get the last character of the name of the parent
+            char lastChar = transform.parent.name[transform.parent.name.Length - 1];
+
             // get the cylinders and disable them
-            GameObject[] cylinders = GameObject.FindGameObjectsWithTag("cylinder1");
+            GameObject[] cylinders = GameObject.FindGameObjectsWithTag("cylinder" + lastChar);
             foreach (GameObject cylinder in cylinders)
             {
                 cylinder.SetActive(false);
