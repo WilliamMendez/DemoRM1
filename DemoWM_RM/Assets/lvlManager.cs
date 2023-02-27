@@ -5,6 +5,9 @@ using System;
 
 public class lvlManager : MonoBehaviour
 {
+    float tilling = 1;
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -37,16 +40,17 @@ public class lvlManager : MonoBehaviour
             {
                 foreach (Transform child in lvl.transform)
                 {
-                    if (!child.name.Contains("inicio")){
-                    // check if the child object has a collider or mesh collider
-                    if (child.GetComponent<Collider>() != null)
+                    if (!child.name.Contains("inicio"))
                     {
-                        child.GetComponent<Collider>().enabled = false;
-                    }
-                    else if (child.GetComponent<MeshCollider>() != null)
-                    {
-                        child.GetComponent<MeshCollider>().enabled = false;
-                    }
+                        // check if the child object has a collider or mesh collider
+                        if (child.GetComponent<Collider>() != null)
+                        {
+                            child.GetComponent<Collider>().enabled = false;
+                        }
+                        else if (child.GetComponent<MeshCollider>() != null)
+                        {
+                            child.GetComponent<MeshCollider>().enabled = false;
+                        }
                     }
                 }
             }
@@ -63,6 +67,8 @@ public class lvlManager : MonoBehaviour
                 }
             }
         }
+        // set the skybox material X tilling to 1
+        RenderSettings.skybox.SetFloat("_TilingX", 1);
 
     }
 
@@ -75,5 +81,66 @@ public class lvlManager : MonoBehaviour
         return result;
     }
 
+    // method for changing the skybox material tilling to the next stage
+    // it adds 0.3 to the X tilling
+    public void changeSkyboxTilling()
+    {
+        // get the skybox material
+        GameObject skybox = GameObject.Find("SkyDome");
+        Material skyboxMaterial = skybox.GetComponent<Renderer>().material;
+        // add 0.3 to the tilling smootly
+        for (int i = 0; i < 60; i++)
+        {
+            tilling += 0.005f;
+            // set the new tilling
+            skyboxMaterial.mainTextureScale = new Vector2(tilling, 1);
+            // wait for 0.01 seconds
+            System.Threading.Thread.Sleep(10);
+        }
 
+        // tilling += 0.3f;
+        // Debug.Log("New tilling: " + tilling);
+        // // set the new tilling
+        // skyboxMaterial.mainTextureScale = new Vector2(tilling, 1);
+    }
+
+    // close the application on escape key press
+    void Update()
+    {
+        if (Input.GetKey("escape"))
+        {
+            Application.Quit();
+        }
+        // get key press for changing the level by calling the button click method
+        GameObject ui;
+        ui = GameObject.Find("UI");
+
+        if (Input.GetKey("1"))
+        {
+            UnityEngine.UI.Button button = ui.transform.Find("lvl1").GetComponent<UnityEngine.UI.Button>();
+            button.onClick.Invoke();
+        }
+        else if (Input.GetKey("2"))
+        {
+            UnityEngine.UI.Button button = ui.transform.Find("lvl2").GetComponent<UnityEngine.UI.Button>();
+            button.onClick.Invoke();
+        }
+        else if (Input.GetKey("3"))
+        {
+            UnityEngine.UI.Button button = ui.transform.Find("lvl3").GetComponent<UnityEngine.UI.Button>();
+            button.onClick.Invoke();
+        }
+        else if (Input.GetKey("4"))
+        {
+            UnityEngine.UI.Button button = ui.transform.Find("lvl4").GetComponent<UnityEngine.UI.Button>();
+            button.onClick.Invoke();
+        }
+        else if (Input.GetKey("5"))
+        {
+            UnityEngine.UI.Button button = ui.transform.Find("lvl5").GetComponent<UnityEngine.UI.Button>();
+            button.onClick.Invoke();
+        }
+
+
+    }
 }

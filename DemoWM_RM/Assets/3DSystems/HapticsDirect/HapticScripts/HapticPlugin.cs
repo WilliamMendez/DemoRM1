@@ -151,11 +151,11 @@ public class HapticPlugin : MonoBehaviour
     [StackableField]
     public GameObject VisualizationMesh;
 
-    [Header("On Screen Stylus")]
-    [Label(title = "Fake Mesh")]
-    [Tooltip("The Visual Mesh represents the on screen stylus. It can be any mesh.")]
-    [StackableField]
-    public GameObject FakeMesh;
+    // [Header("On Screen Stylus")]
+    // [Label(title = "Fake Mesh")]
+    // [Tooltip("The Visual Mesh represents the on screen stylus. It can be any mesh.")]
+    // [StackableField]
+    // public GameObject FakeMesh;
 
     [Label(title = "Collision Mesh")]
     [Tooltip("The Collision Mesh has the function of a collider of the on screen stylus. It consists of a (convex) mesh, one or more convex colliders, a rigid body and the HapticCollider.cs script.")]
@@ -1584,13 +1584,12 @@ public class HapticPlugin : MonoBehaviour
             rBody.position = targetPos;
             rBody.drag = 0;
             VisualizationMesh.transform.SetPositionAndRotation(newMatrix.ExtractPosition(), newMatrix.ExtractRotation());
-            FakeMesh.transform.SetPositionAndRotation(newMatrix.ExtractPosition(), newMatrix.ExtractRotation());
         }
         else
         {
             //VisualizationMesh.transform.SetPositionAndRotation(newMatrix.ExtractPosition(), newMatrix.ExtractRotation());
             VisualizationMesh.transform.SetPositionAndRotation(newMatrix.ExtractPosition() - deltaPos, newMatrix.ExtractRotation());
-            FakeMesh.transform.SetPositionAndRotation(newMatrix.ExtractPosition() - deltaPos, newMatrix.ExtractRotation());
+            // FakeMesh.transform.SetPositionAndRotation(newMatrix.ExtractPosition() - deltaPos, newMatrix.ExtractRotation());
             if (distance > 0.1*ScaleFactor)
             {
                 magnitude = 20.0f;
